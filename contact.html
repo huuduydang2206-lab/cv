@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUUDUY — Liên hệ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+    <link rel="icon" href="data:image/svg+xml,
+<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+<text y=%22.9em%22 font-size=%2290%22>HD</text>
+</svg>">
+
+
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="ambient"></div>
+
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a class="brand" href="index.html">HỮU DUY ✦</a>
+      <button class="menu-toggle" aria-label="Mở menu"
+        aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">OVERVIEW</a>
+        <a href="about.html">INFORMATION</a>
+        <a href="projects.html">EXPERIENCE</a>
+        <a href="skills.html">SKILLS</a>
+        <a href="contact.html">MY CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main container">
+    <section class="page-heading reveal">
+      <p class="eyebrow">04 — SEND A LITTLE STAR</p>
+      <h1>Cùng bắt đầu một <span>kết nối.</span></h1>
+      <p class="lead">
+        Nếu bạn có một dự án, một ý tưởng hoặc đơn giản là muốn
+        chào hỏi, mình rất vui được kết nối.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="content-grid">
+        <div>
+          <h2>Gửi mình một <span>lời nhắn.</span></h2>
+          <div class="gold-line"></div>
+
+          <p class="muted">
+            Bạn có thể điền biểu mẫu bên cạnh để soạn email gửi cho mình.
+          </p>
+
+          <ul style="list-style:none; margin-top:25px">
+            <li class="muted" style="padding:12px 0;border-bottom:1px solid var(--line)">
+              ✦ Đặt câu hỏi
+            </li>
+            <li class="muted" style="padding:12px 0;border-bottom:1px solid var(--line)">
+              ✦ Trao đổi về dự án
+            </li>
+            <li class="muted" style="padding:12px 0;border-bottom:1px solid var(--line)">
+              ✦ Hợp tác và sáng tạo
+            </li>
+            <li class="muted" style="padding:12px 0;border-bottom:1px solid var(--line)">
+              ✦ Giao lưu học tập và ngôn ngữ
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <form id="contact-form">
+            <div class="field">
+              <label for="name">TÊN CỦA BẠN</label>
+              <input id="name" name="name"
+                autocomplete="name" required
+                placeholder="Tên của bạn">
+            </div>
+
+            <div class="field">
+              <label for="email">EMAIL CỦA BẠN</label>
+              <input id="email" name="email" type="email"
+                autocomplete="email" required
+                placeholder="you@example.com">
+            </div>
+
+            <div class="field">
+              <label for="message">LỜI NHẮN</label>
+              <textarea id="message" name="message"
+                required placeholder="Bạn muốn chia sẻ điều gì?"></textarea>
+            </div>
+
+            <button class="button primary" type="submit">
+              SOẠN EMAIL ↗
+            </button>
+
+            <p class="form-note">
+              Biểu mẫu sẽ mở ứng dụng email trên thiết bị của bạn.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="contact-box">
+        <p class="eyebrow">THANK YOU FOR STOPPING BY</p>
+        <h2>Cảm ơn bạn đã ghé thăm <span>trang này.</span></h2>
+        <p class="lead">
+          Mong rằng chúng ta sẽ có cơ hội tạo nên điều gì đó có ý nghĩa.
+        </p>
+        <div class="contact-links">
+          <a class="button" href="projects.html">XEM DỰ ÁN ↗</a>
+          <a class="button" href="index.html">VỀ TRANG CHỦ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    HUUDUY CV <span>✦</span> PORTFOLIO
+    <br>Copyright © <span id="year"></span>
+    Đặng Hữu Duy
+  </footer>
+</body>
+</html>
